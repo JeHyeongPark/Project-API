@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>메인화면</title>
+    <link rel="stylesheet" th:href="@{/css/main.css}">
+    <script src="/js/main.js" defer></script>
+</head>
+<body>
+<div class="wrapper">
+    <header><img src="/img/weather.png"><p>지역 날씨 예보 검색</p></header>
+    <main>
+        <div class="infoField">
+            <div class="info">지역을 검색해 주세요</div>
+        </div>
+        <div class="searchField">
+            <div class="searchBar">
+                <input type="text" class="text" id="searchText" placeholder="지역을 검색 후 검색을 눌러주세요">
+            </div>
+            <div class="searchBtn" >
+                <a id="searchBtn">검색</a>
+            </div>
+        </div>
+        <div class="errorInfo">행정구역(시-도/시-군-구/읍-면-동)으로 입력해주세요</div>
+    </main>
+    <footer>Copyright© Jay All Rights RESERVED.</footer>
+</div>
+</body>
+</html>

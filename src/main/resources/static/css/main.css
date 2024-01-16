@@ -1,0 +1,115 @@
+/* common css */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato','Nanum Gothic',dotum,'돋움',arial,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+ul, ol {list-style: none;}
+a {text-decoration: none; color: #000000;}
+input, textarea {outline: none;}
+
+
+/* wrapper */
+.wrapper{
+    width: 100%;
+}
+
+/* 헤더 */
+header{
+    background-color: #0A2647;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-left: 8px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+header img {
+    width:40px;
+}
+
+
+header p{
+    font-size: 30px;
+    font-weight: 300;
+    color:white;
+}
+
+/* 메인 */
+main{
+    background-color: #ffffff;
+    width: 100%;
+    height: calc( 100vh - 95px);
+    margin-top:60px;
+    margin-bottom:35px;
+    padding-top:170px;
+}
+
+/* 푸터 */
+footer{
+    background-color:lightblue;
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    line-height: 35px;
+    font-size: 13px;
+}
+
+.infoField{
+    display: flex;
+    justify-content: center;
+    margin-bottom:40px;
+
+}
+
+
+.info{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.searchField{
+    display: flex;
+    justify-content: center;
+    gap:5px;
+}
+
+
+.text{
+    width: 315px;
+    height:35px;
+    border-radius: 5px;
+    padding-left: 5px;
+
+}
+
+
+.searchBtn{
+    width: 55px;
+    height: 35px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 5px;
+}
+
+
+.errorInfo{
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+    font-size: 15px;
+}
