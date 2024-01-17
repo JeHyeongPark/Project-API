@@ -25,7 +25,47 @@
             <div class="infoMap">
                 <div id="map" style="width:100%;height:100%;"></div>
             </div>
-            <div class="infoWeather">날씨정보자리</div>
+            <div class="infoWeather">
+              <div class="support"><img src="/img/forecast.png"></div>
+                <div class="tempArea">
+                    <img src="/img/sunny.png" class="img" id="sunimg" style="display : none;">
+                    <img src="/img/cloud.png" class="img" id="cloudimg" style="display : none;">
+                    <img src="/img/cloudy.png" class="img" id="cloudyimg" style="display : none;">
+                    <img src="/img/rain.png" class="img" id="rainimg" style="display : none;">
+                    <img src="/img/snow.png" class="img" id="snowimg" style="display : none;">
+                  <div class="temp" id="temp"></div>
+                  <div class="tmepCircle">°</div>
+                </div>
+                <div class="skyContent">
+                  <div class="sky" id="sky"></div>
+                  <div class="preci">강수량</div>
+                  <div class="preciInfo" id="preciInfo"></div>
+                </div>
+                <div class="moreInfo">
+                   <div class="windPo">
+                        <div class="windPower">풍속</div>
+                       <div class="forWind">
+                        <div class="windPowerInfo" id="windPowerInfo"></div>
+                        <div class="windPowerInfo">m/s</div>
+                       </div>
+                   </div>
+                   <div class="windPa">
+                     <div class="windPath">풍향</div>
+                     <div class="windPathInfo" id="windPathInfo"></div>
+                   </div>
+                   <div class="humid">
+                        <div class="humidity">습도</div>
+                      <div class="forHumid">
+                        <div class="humidityInfo" id="humidityInfo"></div>
+                        <div class="humidityInfo">%</div>
+                      </div>
+                   </div>
+                   <div class="ty">
+                        <div class="type">강수형태</div>
+                        <div class="typeInfo" id="typeInfo"></div>
+                   </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer>Copyright© Jay All Rights RESERVED.</footer>

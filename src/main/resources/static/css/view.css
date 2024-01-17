@@ -46,7 +46,7 @@ header p{
 
 /* 메인 */
 main{
-    background-color: #ffffff;
+    background-color: #e9e9e9;
     width: 100%;
     height: calc( 100vh - 95px);
     margin-top:60px;
@@ -121,4 +121,200 @@ footer{
     margin-top: 10px;
     color: red;
     font-size: 15px;
+}
+
+.infoWeather{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+
+.support{
+    margin-bottom: 95px;
+
+}
+
+
+.tempArea{
+    display: flex;
+    align-items: center;
+}
+
+.img{
+    width:80px;
+    height:80px;
+}
+
+.temp{
+    font-size: 80px;
+    font-weight: 600;
+
+}
+
+.tmepCircle{
+    height:80px;
+    font-size: 55px;
+    font-weight: 600;
+
+}
+
+.skyContent{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.sky{
+    font-size: 20px;
+    color: #767676;
+    margin-right: 15px;
+
+}
+
+
+.preci{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+
+.preciInfo{
+    font-size: 20px;
+    color: #767676;
+    margin-left: 5px;
+    font-weight: 600;
+
+
+}
+
+.moreInfo{
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+    gap:5px;
+}
+
+.windPo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100px;
+    height:80px;
+    background-color:lightblue;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.forWind{
+    display:flex;
+}
+
+
+
+.windPower{
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.windPowerInfo{
+    font-size: 14px;
+    color: blue;
+    margin-top: 3px;
+    font-weight: 600;
+
+}
+
+
+
+.windPa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100px;
+    height:80px;
+    background-color:lightgreen;
+    border-radius: 5px;
+
+
+}
+
+
+
+.windPath{
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.windPathInfo{
+    font-size: 14px;
+    color: green;
+    margin-top: 3px;
+    font-weight: 600;
+
+}
+
+
+.humid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100px;
+    height:80px;
+    background-color:lightyellow;
+    border-radius: 5px;
+}
+
+.forHumid{
+    display:flex;
+}
+
+.humidity{
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.humidityInfo{
+    font-size: 14px;
+    color: orange;
+    margin-top: 3px;
+    font-weight: 600;
+
+}
+
+
+.ty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100px;
+    height:80px;
+    background-color:lightpink;
+    border-radius: 5px;
+}
+
+.type{
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+
+
+.typeInfo{
+    font-size: 14px;
+    color: darkred;
+    margin-top: 3px;
+    font-weight: 600;
+
 }
